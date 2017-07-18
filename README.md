@@ -1,5 +1,5 @@
 
-#**Traffic Sign Recognition** 
+# **Traffic Sign Recognition** 
 ---
 
 **Build a Traffic Sign Recognition Project**
@@ -14,7 +14,7 @@ The goals / steps of this project are the following:
 
 ---
 
-###Data Set Summary & Exploration
+### Data Set Summary & Exploration
 I used numpy and Python to find some important information about the data set that was provided to execute the exercise. I got the following result:
 
 Number of training examples = **34799**
@@ -32,7 +32,7 @@ Some signs of the train data are more common than others. The following chart sh
 
 It is reasonable to think that signs with a higher frequency will have a more accurate classification. 
 
-###Design and Test a Model Architecture
+### Design and Test a Model Architecture
 
 At first, I decided to apply gray scaling in the imagens, but the precision of my training model dropped instead of rising. The idea was to use only one channel of color in the hope to make a simpler computation for my deep network, but it seams that the color helps the network to classify the data. 
 
